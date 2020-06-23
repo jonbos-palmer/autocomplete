@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Capital Lookup</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
 </head>
+
 <body>
-    
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col md-6 m-auto">
+                <h3 class="text-center mb-3">
+                    State Capital Lookup
+                </h3>
+                <div class="form-group">
+                    <input id="search" placeholder="Enter state name or abbreviation" type="text" class="form-control form-control-lg" />
+                </div>
+                <div id="match-list"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
